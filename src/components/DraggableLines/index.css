@@ -1,0 +1,23 @@
+#lines{
+    display:flex;
+    width:100%;
+    max-width:700px;
+    margin:auto;
+    flex-flow:column wrap;
+}
+.line{
+    display:block;
+    padding:10px;
+    border:1px dashed transparent;
+    cursor:move;
+    user-select: none;
+    font-size:18px;
+    border-radius:10px;
+    width:auto;
+    text-align:center;
+    transition: ease 0.5s
+}
+.line.current{
+    background:rgba(255,255,255,.2);
+    border:1px dashed rgba(255,255,255,0.4)
+}
