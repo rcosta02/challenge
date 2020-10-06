@@ -26,3 +26,9 @@ body{
     padding-left:50px;
     box-sizing: border-box;
 }
+@media screen and (max-width:1050px){
+    .lines, .notification{
+        width:100%;
+        padding:50px 0
+    }
+}
